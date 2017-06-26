@@ -45,15 +45,15 @@ function quadraticEquation(a, b, c) {
     }
 
     else if (D > 0) {
-        var x1 = ((-b + Math.sqrt(D)) / 2 * a);
-        var x2 = ((-b - Math.sqrt(D)) / 2 * a);
+        var x1 = ((-b + Math.sqrt(D)) / (2 * a));
+        var x2 = ((-b - Math.sqrt(D)) / (2 * a));
         result = 'x1 = ' + Math.round(x1) + '<br> x2 = ' + Math.round(x2);
         return result;
     }
 
     else if (D === 0) {
-        var x12 = (-b / 2 * a);
-        result = 'x1,2 = ' + x12;
+        var x1x2 = (-b / (2 * a));
+        result = 'x1,2 = ' + x1, x2;
         return result;
     }
 
