@@ -9,11 +9,11 @@ document.write('<br>')
 document.write('Heare is your Equation');
 document.write('<br>')
 document.write('<br>')
-document.write('a = '+a+';')
+document.write('a = ' + a + ';')
 document.write('<br>')
-document.write('b = '+b+';')
+document.write('b = ' + b + ';')
 document.write('<br>')
-document.write('c = '+c+';')
+document.write('c = ' + c + ';')
 document.write('<br>')
 document.write('<br>')
 document.write(a + 'x<sup>2</sup> + ' + b + 'x + ' + c + ' = 0');
@@ -52,8 +52,8 @@ function quadraticEquation(a, b, c) {
     }
 
     else if (D === 0) {
-        var x1, x2 = (-b / 2 * a);
-        result = 'x1,2 = ' + x1, x2;
+        var x12 = (-b / 2 * a);
+        result = 'x1,2 = ' + x12;
         return result;
     }
 
